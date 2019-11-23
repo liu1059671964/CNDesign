@@ -1,0 +1,47 @@
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
+  }
+  .firstItem{
+      text-align: center;
+      height: 1.9rem;
+      padding-left: 0.2rem;
+      display: flex;
+      margin-left:0.05rem;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+
+
+  .firstItem p{
+      text-align: center;
+      margin-top:0.1rem;
+    /* display: inline-block; */
+}
+.firstItem span{
+    margin-left:0.24rem;
+}
+.sfive{
+    text-align: center;
+    margin-left:0.5rem;
+    color:red;
+}
+
+  /* style={{
+    height: '1.9rem',
+    textAlign: 'center',
+    display: 'flex',
+    flexDeriction: 'colum',
+    paddingLeft: '0.2rem;'
+}} */
